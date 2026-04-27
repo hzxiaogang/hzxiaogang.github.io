@@ -1,0 +1,19 @@
+import{_ as a,o as n,c as l,ak as e}from"./chunks/framework.DLt_otXO.js";const d=JSON.parse('{"title":"项目结构","description":"","frontmatter":{"title":"项目结构","date":"2021-12-10T16:20:00.000Z","permalink":"/pages/6d37cb/","categories":["框架","Vuex"],"tags":[null]},"headers":[],"relativePath":"框架/Vuex/项目结构.md","filePath":"框架/Vuex/项目结构.md","lastUpdated":1777258973000}'),p={name:"框架/Vuex/项目结构.md"};function o(t,s,c,r,i,F){return n(),l("div",null,[...s[0]||(s[0]=[e(`<p>Vuex 并不限制我们的代码结构，但是，它规定了一些需要遵守的规则：</p><h4 id="_1-应用层级的状态应该集中到单个-store-对象中" tabindex="-1">1. 应用层级的状态应该集中到单个 store 对象中 <a class="header-anchor" href="#_1-应用层级的状态应该集中到单个-store-对象中" aria-label="Permalink to “1. 应用层级的状态应该集中到单个 store 对象中”">​</a></h4><h4 id="_2-提交-mutation-是更改状态的唯一方法-并且这个过程是同步的" tabindex="-1">2. 提交 mutation 是更改状态的唯一方法，并且这个过程是同步的 <a class="header-anchor" href="#_2-提交-mutation-是更改状态的唯一方法-并且这个过程是同步的" aria-label="Permalink to “2. 提交 mutation 是更改状态的唯一方法，并且这个过程是同步的”">​</a></h4><h4 id="_3-异步逻辑应该分装到-action-里面" tabindex="-1">3. 异步逻辑应该分装到 action 里面 <a class="header-anchor" href="#_3-异步逻辑应该分装到-action-里面" aria-label="Permalink to “3. 异步逻辑应该分装到 action 里面”">​</a></h4><p>只要我们遵守意识规则，我们可以随意组织代码。如果 store 文件太大，只需将<code>action</code>，<code>mutation</code>，和<code>getter</code> 分割到单独的文件。</p><p>对于大型应用，我们希望把 Vuex 相关代码分割到模块中。下面是项目结构示例：</p><div class="language-sh"><button title="Copy Code" class="copy"></button><span class="lang">sh</span><pre class="shiki github-dark" style="background-color:#24292e;color:#e1e4e8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#B392F0;">├──</span><span style="color:#9ECBFF;"> index.html</span></span>
+<span class="line"><span style="color:#B392F0;">├──</span><span style="color:#9ECBFF;"> main.js</span></span>
+<span class="line"><span style="color:#B392F0;">├──</span><span style="color:#9ECBFF;"> api</span></span>
+<span class="line"><span style="color:#B392F0;">│</span><span style="color:#9ECBFF;">   └──</span><span style="color:#9ECBFF;">  ...</span><span style="color:#6A737D;"> # 抽取出API请求</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#B392F0;">├──</span><span style="color:#9ECBFF;"> components</span></span>
+<span class="line"><span style="color:#B392F0;">│</span><span style="color:#9ECBFF;">   ├──</span><span style="color:#9ECBFF;"> App.vue</span></span>
+<span class="line"><span style="color:#B392F0;">│</span><span style="color:#9ECBFF;">   └──</span><span style="color:#9ECBFF;"> ...</span></span>
+<span class="line"><span style="color:#B392F0;">└──</span><span style="color:#9ECBFF;"> store</span></span>
+<span class="line"><span style="color:#B392F0;">    ├──</span><span style="color:#9ECBFF;"> index.js</span><span style="color:#6A737D;">          # 我们组装模块并导出 store 的地方</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span></span>
+<span class="line"><span style="color:#B392F0;">    ├──</span><span style="color:#9ECBFF;"> actions.js</span><span style="color:#6A737D;">        # 跟级别的  action  </span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span></span>
+<span class="line"><span style="color:#B392F0;">    ├──</span><span style="color:#9ECBFF;"> mutations.js</span><span style="color:#6A737D;">      # 跟级别的 mutation</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span></span>
+<span class="line"><span style="color:#B392F0;">    └──</span><span style="color:#9ECBFF;"> modules</span></span>
+<span class="line"><span style="color:#B392F0;">        ├──</span><span style="color:#9ECBFF;"> cart.js</span><span style="color:#6A737D;">       # 购物车模块</span></span>
+<span class="line"><span style="color:#E1E4E8;">        </span></span>
+<span class="line"><span style="color:#B392F0;">        └──</span><span style="color:#9ECBFF;"> products.js</span><span style="color:#6A737D;">   # 产品模块</span></span></code></pre></div>`,7)])])}const B=a(p,[["render",o]]);export{d as __pageData,B as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.DLt_otXO.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"知识碎片/前端性能优化.md","filePath":"知识碎片/前端性能优化.md","lastUpdated":1777258973000}'),r={name:"知识碎片/前端性能优化.md"};function o(s,_,c,n,d,p){return t(),a("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

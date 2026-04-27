@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.DLt_otXO.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"框架/vue/渲染函数.md","filePath":"框架/vue/渲染函数.md","lastUpdated":1777258973000}'),r={name:"框架/vue/渲染函数.md"};function o(s,c,n,_,d,p){return t(),a("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

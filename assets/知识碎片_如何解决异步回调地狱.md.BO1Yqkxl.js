@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.DLt_otXO.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"知识碎片/如何解决异步回调地狱.md","filePath":"知识碎片/如何解决异步回调地狱.md","lastUpdated":1777258973000}'),_={name:"知识碎片/如何解决异步回调地狱.md"};function r(o,s,c,n,d,p){return t(),a("div")}const f=e(_,[["render",r]]);export{m as __pageData,f as default};
